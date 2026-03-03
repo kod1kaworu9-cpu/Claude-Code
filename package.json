@@ -1,0 +1,18 @@
+{
+  "name": "claude-code",
+  "version": "1.0.0",
+  "description": "CLI tool for Claude Code",
+  "main": "src/index.js",
+  "bin": {
+    "claude-code": "./bin/claude-code.js"
+  },
+  "scripts": {
+    "start": "node bin/claude-code.js",
+    "test": "node --test src/index.test.js"
+  },
+  "keywords": ["cli", "claude", "ai"],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
